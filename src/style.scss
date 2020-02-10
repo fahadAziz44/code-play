@@ -12,7 +12,11 @@ body {
   color: $body-color;
 }
 
-.inputs {
+.Price-inputs {
+  margin-top: 20px;
+}
+
+.inputs, .Price-inputs {
   display: flex;
   justify-content: space-evenly;
   width: 95%;

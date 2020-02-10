@@ -28,6 +28,12 @@ const angular = function () {
                         elements: []
                     }
                 }
+                
+                if(ctrl[boundValue]) {
+                    element.value = ctrl[boundValue];
+                    element.setAttribute('value', ctrl[boundValue]);
+                }
+                
                 bindings[boundValue].elements.push(element);
             });
 
